@@ -30,7 +30,22 @@ Request body example:
  "phoneNumber": "123456"
 }
 
+This backend API is hosted online and accessible at:
 https://bitespeed-backened.onrender.com
+
+
+
+### Steps to test in Postman:
+
+1. Open Postman.
+2. Create a new request.
+3. Enter the full request URL (e.g., `https://bitespeed-backened.onrender.com/identify`).
+4. Select the HTTP method (POST).
+5. If POST, select “Body” → “raw” → “JSON” and add your JSON data.
+6. Click **Send**.
+7. View the response returned by your backend.
+
+
 
 Author:
 Rahul Naik S
