@@ -39,7 +39,7 @@ export default function App() {
     setResponse(null);
 
     try {
-      const res = await fetch("https://bitespeed-backened.onrender.com", {
+      const res = await fetch("https://bitespeed-backened.onrender.com/identify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, phoneNumber }),

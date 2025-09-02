@@ -4,6 +4,7 @@ const prisma = new PrismaClient();
 
 const identify = async (req, res) => {
   const { email, phoneNumber } = req.body;
+  // console.log(req.body);
 
   // Basic check
   if (!email && !phoneNumber) {
